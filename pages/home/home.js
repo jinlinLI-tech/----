@@ -5,6 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
+    goodss:{
+      price:50
+    }
 
   },
 
@@ -16,7 +19,9 @@ Page({
      {data:{
       _id:5,
       name:"小李",
-      number:"2545"
+      number:"2545",
+     
+    
 
     },
     success(res){

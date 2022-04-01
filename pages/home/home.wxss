@@ -49,6 +49,7 @@
   height: 100%;
   width: 100%;
 }
+
 .goods-wrap{
   margin: 20rpx 20rpx;
   display: flex;
@@ -56,7 +57,9 @@
 }
 .goods-message{
   width: 300rpx;
-  height: 250rpx;
+  height: 300rpx;
+  margin-right: 25rpx;
+  border-radius: 5%;
 }
 .message{
   display: flex;
@@ -67,4 +70,9 @@
 .buy{
   display: flex;
   flex-direction: row;
+}
+.shop{
+  height: 75rpx;
+  margin-top: 30rpx;
+  margin-left: 50rpx;
 }

@@ -25,17 +25,17 @@
 <view class="goods-wrap">
     <image src="../../images/chicken.png" class="goods-message"></image>
     <view class="message">
-        <view>
+        <text>
             瓦香鸡
-        </view>
-        <view>
+        </text>
+        <text>
             地址：楠苑食堂三楼
-        </view>
+        </text>
         <view class="buy">
-            <view style="color: red;">
-                ¥15
-            </view>
-            <button size="mini" type="primary" style="background-color: red;">添加购物车</button>
+            <text style="color: red;">
+              ¥{{goodss.price}}
+            </text>
+            <button class="shop" size="mini" type="primary" style="background-color: red;">添加购物车</button>
         </view>
     </view>
 </view>
