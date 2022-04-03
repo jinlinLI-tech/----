@@ -9,20 +9,23 @@
   border-top: 1rpx solid #D7D6DC;
   border-bottom: 1rpx solid #D7D6DC;
 }
+
 .weui-icon-search_in-box {
   position: absolute;
   left: 10px;
   top: 7px;
 }
+
 .weui-search-bar__form {
   position: relative;
   -webkit-box-flex: 1;
   -webkit-flex: auto;
-          flex: auto;
+  flex: auto;
   border-radius: 5px;
   background: #FFFFFF;
   border: 1rpx solid #E6E6EA;
 }
+
 .weui-search-bar__box {
   position: relative;
   padding-left: 30px;
@@ -31,47 +34,87 @@
   box-sizing: border-box;
   z-index: 1;
 }
+
 .weui-search-bar__input {
   height: 28px;
   line-height: 28px;
   font-size: 14px;
 }
+
 .weui-search-bar__cancel-btn {
   margin-left: 10px;
   line-height: 28px;
   color: #09BB07;
   white-space: nowrap;
 }
-.sum{
+
+.sum {
   height: 375rpx;
 }
-.item{
+
+.tz {
+  height: 100rpx;
+  width: 100%;
+  background-color: rgb(224, 222, 213);
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.tz-left {
+  height: 80rpx;
+  width: 80rpx;
+  margin-left: 40rpx;
+  margin-right: 20rpx;
+  margin-top: 10rpx;
+  float: left;
+
+}
+
+.tz-img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-news {
+  width: 100%;
+  height: 100%;
+  line-height: 100rpx;
+  margin-left: 35rpx;
+}
+
+.item {
   height: 100%;
   width: 100%;
 }
 
-.goods-wrap{
+.goods-wrap {
   margin: 20rpx 20rpx;
   display: flex;
   flex-direction: row;
 }
-.goods-message{
+
+.goods-message {
   width: 300rpx;
   height: 300rpx;
   margin-right: 25rpx;
   border-radius: 5%;
 }
-.message{
+
+.message {
   display: flex;
   flex-direction: column;
   height: 250rpx;
   justify-content: space-around;
 }
-.buy{
+
+.buy {
   display: flex;
   flex-direction: row;
 }
-.shop{
+
+.shop {
   height: 75rpx;
   margin-top: 30rpx;
   margin-left: 50rpx;

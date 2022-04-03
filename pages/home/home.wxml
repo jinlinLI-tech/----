@@ -22,18 +22,34 @@
         <image class="item" src="../../images/swiper2.png"></image>
     </swiper-item>
 </swiper>
-<view class="goods-wrap">
-    <image src="../../images/chicken.png" class="goods-message"></image>
+<view class="tz">
+    <view class="tz-left">
+        <image class="tz-img" src="../../images/tz2.png"></image>
+    </view>
+    <swiper class="swiper-news" autoplay="true" interval="3000" circular="true" vertical="true">
+        <block wx:for="{{inform}}" wx:key="{{index}}">
+            <navigator url="" open-type="navigate">
+                <swiper-item>
+                    <view class="swiper-item">
+                        {{item}}
+                    </view>
+                </swiper-item>
+            </navigator>
+        </block>
+    </swiper>
+</view>
+<view class="goods-wrap" wx:for="{{foodlist}}" wx:key="foodlist_{{index}}">
+    <image src="{{item.cover}}" class="goods-message"></image>
     <view class="message">
         <text>
-            瓦香鸡
+            {{item.name}}
         </text>
         <text>
-            地址：楠苑食堂三楼
+            地址：{{item.address}}
         </text>
         <view class="buy">
             <text style="color: red;">
-              ¥{{goodss.price}}
+                ¥{{item.price}}
             </text>
             <button class="shop" size="mini" type="primary" style="background-color: red;">添加购物车</button>
         </view>
