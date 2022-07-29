@@ -5,8 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-    foodlist: ''
+    ricelist: {
+      name: '小锅米线',
+      img: '../../images/chicken.png',
+      price: '￥20',
+      num: '1',
+      address: '深圳市南山区科技园'
+    }
 
+  },
+  onTabsChange(event) {
+    console.log(event.detail);
   },
 
   /**

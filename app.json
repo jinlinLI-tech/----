@@ -39,6 +39,11 @@
         }
     ]
     },
-    "style": "v2",
+    "usingComponents": {
+      "t-button": "tdesign-miniprogram/button/button",
+      "t-tabs": "tdesign-miniprogram/tabs/tabs",
+    "t-tab-panel": "tdesign-miniprogram/tabs/tab-panel"
+    },
+
     "sitemapLocation": "sitemap.json"
 }

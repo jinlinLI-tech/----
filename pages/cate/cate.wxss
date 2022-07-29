@@ -1,1 +1,44 @@
 /* pages/cate/cate.wxss */
+.tab-content {
+    display: flex;
+    flex-direction: row;
+    height: 300rpx;
+    width: 100%;
+}
+
+image {
+    height: 100%;
+    width: 250rpx;
+}
+
+.buy {
+    display: flex;
+    flex-direction: row;
+}
+
+.foodName {
+    font-size: 36rpx;
+    color: rgb(16, 16, 16);
+    text-align: center;
+    display: block;
+    line-height: 100%;
+
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.address {
+    font-size: 24rpx;
+    color: rgb(182, 173, 173);
+}
+
+.shop {
+    height: 75rpx;
+    margin-top: 30rpx;
+    margin-left: 50rpx;
+}
